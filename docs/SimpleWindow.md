@@ -1,25 +1,25 @@
-# Простые окна и двери
+# Simple Windows and Doors
 
-`PWCSimpleWindow` и `PWCSimpleDoor` - классы для быстрого построения простых окон и дверей. Ограничения заполнения: от 1 до 3 рядов (вертикальное заполнение) с разным коэффициентом заполнения. Далее в каждом ряду произвольное к-во ячеек со стеклом или створкой (горизонтальное заполнение).
+`PWCSimpleWindow` и `PWCSimpleDoor` - classes for quick construction of simple windows and doors. Filling restrictions: from 1 to 3 rows (vertical filling) with different filling coefficients. Then in each row an arbitrary number of cells with glass or sash (horizontal filling).
 
 > Отличие `PWCSimpleWindow` и `PWCSimpleDoor`: в `PWCSimpleWindow` настраиваем заполнение в раме, в `PWCSimpleDoor` настраивается заполнение в главной створке.
 
-![](../img/SimpleConstructor1.png ':size=50%')
+![](./img/SimpleConstructor1.png ':size=50%')
 
-![](../img/SimpleConstructor2.jpg ':size=50%')
+![](./img/SimpleConstructor2.jpg ':size=50%')
 
 ## `DetailsPanel`:
 
 ### `Constructor Live Refresh`
 
-![](../img/ConstructorLiveRefresh0.png ':size=20%')
+![](./img/ConstructorLiveRefresh0.png ':size=20%')
 
 - `Refresh` - Кнопка. Сгенерировать/обновить геометрию.
 - `Live Refresh` - Вкл./выкл. автоматическое перестраивание геометрии при изменении данных заполнения.
 
-### Заполнение
+### Filling
 
-![](../img/SimpleConstructor0.png ':size=20%')
+![](./img/SimpleConstructor0.png ':size=20%')
 
 - `Main Door Data`: (только для `PWCSimpleDoor`)
 	- `Sash Side` - Сторона створки.
@@ -43,11 +43,10 @@
 
 > Некоторые поля скрываются/показываются в зависимости от типа заполнения и других зависящих данных.
 
-### Подоконник
+### Sill
 
 - `Sill`
 	- `Add Sill` - Вкл/выкл подоконник.
 	- `Sill Depth` - Глубина подоконника (см). 
 	- `Sill Extra Width` - Дополнительная ширина подоконника (см) (+ или - к ширине конструкции).
 	- `Sill Origin Right Offset` - Сместить подоконник вправо/влево (+/-) (Если `Sill Extra Width` = 20, то `Sill Origin Right Offset` = 10 или -10 (половина) для выравнивания по нужной стороне).
-	

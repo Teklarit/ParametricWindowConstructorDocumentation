@@ -19,7 +19,3 @@
 ## Дорожная карта
 
 [Roadmap](https://trello.com/b/PzMl1SO7/parametricwindowconstructorpublicroadmap)
-
-<!--
-![](../img/image.png ':size=40%')
--->

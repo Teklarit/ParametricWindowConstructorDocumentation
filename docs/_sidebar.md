@@ -1,8 +1,9 @@
-<!-- docs/ru/_sidebar.md -->
+<!-- docs/_sidebar.md -->
 
-- [Главная](./ru/)
-- [Простые окна и двери](./ru/SimpleWindow.md)
-- [Анимация](./ru/Animation.md)
-- [Конвертация](./ru/Convertation.md)
-- [Галерея](./ru/Galery.md)
-- [О проекте](./ru/About.md)
+- [General](./)
+- [Simple Windows and Doors](./SimpleWindow.md)
+- [Animation](./Animation.md)
+- [Converting](./Converting.md)
+- [FAQ](./FAQ.md)
+- [Galery](./Galery.md)
+- [Contacts](./About.md)
