@@ -1,26 +1,26 @@
 # Animation
 
-!> Анимация доступна только на не обьединённой в 1 меш геометрии!
+!> Animation is only available on geometry that is not merged into 1 mesh!
 
-`PWCAnimationComponent` - компонента, которая позволяет активировать 4 основные анимации створок.
+`PWCAnimationComponent` - component that allows you to activate 4 basic type animations of the doors.
 
-Для использования следует добавить к актору `SimpleWindowConstructor` или `SimpleDoorConstructor` - компоненту `PWCAnimationComponent`. Пример для обьекта на уровне: В панели активного актора `Details` -> `Add` -> `PWCAnimation`.
+To use, add the `PWCAnimationComponent` component to the `SimpleWindowConstructor` or `SimpleDoorConstructor` actor. Example for an object at the level: In the active actor panel, `Details` -> `Add` -> `PWCAnimation`.
 
 ![](./img/AddAnimationComponent1.png ':size=40%')
 
-Доступно изменение времени анимации для ручки `Handle Animation Time` и открыванеии створки `Hinge Animation Time`.
+It is possible to change the animation time for the handle `Handle Animation Time` and the door opening `Hinge Animation Time`.
 
 ![](./img/AddAnimationComponent2.png ':size=30%')
 
-Вызов анимации доступен через Blueprint функцию `RunAnimation` в `PWCAnimationComponent`.
+Calling the animation is available through the Blueprint function `RunAnimation` in `PWCAnimationComponent`.
 
-!> Вызов функции осуществляется на стороне пользователя там, где ему необходимо. В Sequencer, или PlayerController.
+!> The function is called on the user side where it is needed. In the Sequencer, or PlayerController.
 
 ![](./img/AddAnimationComponent3.png ':size=30%')
 
-Параметры:
- - `NewOpenAction` - Анимация открытия или закрытия (`Open`, `Close`).
- - `NewOpenAxis` - Анимация открыть в сторону или сверху (`RightLeft`, `UpDown`).
- - `Reset` - Не учитывать текущую/последнюю анимацию, показать полную анимацию.
+Parameters:
+- `NewOpenAction` - Opening or closing animation (`Open`, `Close`).
+- `NewOpenAxis` - Opening animation to the side or from the top (`RightLeft`, `UpDown`).
+- `Reset` - Ignore current/last animation, show full animation.
  
-> Если происходит вызов анимации "Открыть сверху", а текущая анимация "Открыть сбоку" - автоматически включается анимация закрытия и после - открытия в нужном направлении.
+> If the "Open from top" animation is called, and the current animation is "Open from side", the closing animation is automatically turned on, and then the opening animation in the desired direction.

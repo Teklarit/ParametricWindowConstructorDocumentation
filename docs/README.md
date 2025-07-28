@@ -6,15 +6,15 @@ Parametric Window Constructor is a tool for quickly configuring window structure
 
 The functionality of the plugin is mainly focused on working in the editor.
 
-!> Убедитесь, что ```ParametricWindowConstructor``` плагин включён.
+!> Make sure ```ParametricWindowConstructor``` plugin is enabled.
 
 ![](./img/UE_PluginCheck.png ':size=50%')
 
 
-Особенности:
- - Быстрое создание основных простых конструкций. [Простые окна и двери](./SimpleWindow.md)
- - Готовые анимации и разные типы открытия створок. [Конвертация](./Convertation.md)
- - Позволяет конвертировать результат в один DynamicMeshComponent, StaticMesh. [Анимация](./Animation.md)
+Features::
+ - Quick creation of basic simple constructions. [Simple Windows and Doors](./SimpleWindow.md)
+ - Ready animations and different types of sash opening. [Animation](./Animation.md)
+ - Allows you to convert the result into one DynamicMeshComponent, StaticMesh. [Convertation](./Convertation.md)
 
 ## Roadmap
 
