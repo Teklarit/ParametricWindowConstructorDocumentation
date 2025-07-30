@@ -14,7 +14,7 @@ The functionality of the plugin is mainly focused on working in the editor.
 Features::
  - Quick creation of basic simple constructions. [Simple Windows and Doors](./SimpleWindow.md)
  - Ready animations and different types of sash opening. [Animation](./Animation.md)
- - Allows you to convert the result into one DynamicMeshComponent, StaticMesh. [Convertation](./Convertation.md)
+ - Allows you to convert the result into one DynamicMeshComponent, StaticMesh. [Convertation](./Converting.md)
 
 ## Roadmap
 
