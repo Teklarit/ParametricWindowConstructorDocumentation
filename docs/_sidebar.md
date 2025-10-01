@@ -5,5 +5,5 @@
 - [Animation](./Animation.md)
 - [Converting](./Converting.md)
 - [FAQ](./FAQ.md)
-- [Galery](./Galery.md)
+- [Gallery](./Gallery.md)
 - [Contacts](./About.md)
