@@ -2,6 +2,7 @@
 
 - [General](./)
 - [Simple Windows and Doors](./SimpleWindow.md)
+- [Materials](./Materials.md)
 - [Animation](./Animation.md)
 - [Converting](./Converting.md)
 - [FAQ](./FAQ.md)

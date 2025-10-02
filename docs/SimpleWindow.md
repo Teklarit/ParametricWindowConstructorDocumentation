@@ -35,7 +35,8 @@
 	- `Row Filling` - Array with data that will fill the row (horizontal filling).
 		- `Filling Type` - Cell type (glass, sash).
 		- `Fill Weight` - Cell fill factor in a row.
-		- `Glazing Type` - Glazing type (triple glazing, opaque panel)
+		- `Glazing Type` - Glazing type (triple glazing, opaque panel).
+		- `Add Mosquito Net` - On/off mosquito net.
 		- `Sash Side` - Sash side.
 		- `Open Angle Type` - Set the type and angle of opening (used for the current display, for converting in the desired form into a single mesh).
 		- `Angle Left Right` - Set the current angle of opening to the side. (0 - 120, degrees).
@@ -49,4 +50,4 @@
 	- `Add Sill` - On/off window sill.
 	- `Sill Depth` - Window sill depth (cm).
 	- `Sill Extra Width` - Additional window sill width (cm) (+ or - to the width of the construction).
-	- `Sill Origin Right Offset` - Move window sill right/left (+/-) (If `Sill Extra Width` = 20, then `Sill Origin Right Offset` = 10 or -10 (half) to align to the desired side).
+	- `Sill Origin Offset` - Move the window sill along the local axes: X - forward, Y - right, Z - up. (If `Sill Extra Width` = 20, then `Sill Origin Offset Y` = 10 or -10 (half) to align with the desired side).
