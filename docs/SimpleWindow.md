@@ -42,12 +42,23 @@
 		- `Angle Left Right` - Set the current angle of opening to the side. (0 - 120, degrees).
 		- `Angle Up Down` - Set the current angle of opening down. (0 - 10, degrees).
 		
-> Some fields are hidden/showed depending on the type of filling and other dependent data.
+> Some fields are hidden/shown depending on the type of infill and other related parameters.
 
-### Sill
+### Inside Sill and Outside Sill
 
-- `Sill`
+Any type of sill can be installed on either side of the window.
+
+- `Inside Sill` - (facing the interior). Axis: `-X`.
+- `Outside Sill` - (facing the exterior). Axis: `+X`.
+
+> Some fields are hidden/shown depending on the type of infill and other related parameters.
+
+- `Inside Sill` or `Outside Sill`:
 	- `Add Sill` - On/off window sill.
-	- `Sill Depth` - Window sill depth (cm).
+	- `Indoor Outdoor Type` - Construction type (Indoor Sill (Interior) or Outdoor Sill (Exterior)).
+	- `Indoor Sill Type` - Type/model of interior sill.
+	- `Outdoor Sill Type` - Type/model of exterior sill.
+	- `Sill Depth` - Window sill depth (cm). 
 	- `Sill Extra Width` - Additional window sill width (cm) (+ or - to the width of the construction).
 	- `Sill Origin Offset` - Move the window sill along the local axes: X - forward, Y - right, Z - up. (If `Sill Extra Width` = 20, then `Sill Origin Offset Y` = 10 or -10 (half) to align with the desired side).
+	- `Sill Angle` - Outside Sill angle (0-45) (degrees).
