@@ -1,8 +1,12 @@
 # Simple Windows and Doors
 
-`PWCSimpleWindow` и `PWCSimpleDoor` - classes for quick construction of simple windows and doors. Filling restrictions: from 1 to 3 rows (vertical filling) with different filling coefficients. Then in each row an arbitrary number of cells with glass or sash (horizontal filling).
+## Base classes
 
-> The difference between `PWCSimpleWindow` and `PWCSimpleDoor`: in `PWCSimpleWindow` we configure the filling in the frame, in `PWCSimpleDoor` we configure the filling in the main sash.
+- `PWCSimpleWindowConstructor` - a class for quickly generating windows with infills. Infill: 1 to 3 rows (vertical). A row can be filled with any number of elements (glass or sash) (horizontal).
+- `PWCSimpleDoorConstructor` - a class for quickly generating doors with infills. Unlike `PWCSimpleWindowConstructor`, the infill starts at the sash.
+- `PWCThreeCorneredWindowConstructor` - a triangle window. No infill, adjustable width, height, and vertex position.
+
+Searching and placing objects at the level:
 
 ![](./img/SimpleConstructor1.png ':size=50%')
 
@@ -17,7 +21,14 @@
 - `Refresh` - Button. Generate/update geometry.
 - `Live Refresh` - Enable/disable automatic geometry rebuilding when infill data changes.
 
-### Filling
+### `Object Settings`
+
+- `Geometry Quality` - `HIGHT`/`LOW` - geometry detalization (profile and other elements).
+- `Glass Planes Generation Type` - `All Planes` - generate all planes for glass, `First And Last Only` - generate only the first and last planes for glass.
+- `Handle Type` - Select a handle model.
+-  `Override Materials` - On/Off the list of materials that will be applied to the geometry of the structure instead of the base materials.
+
+### `Filling`
 
 ![](./img/SimpleConstructor0.png ':size=20%')
 
@@ -27,7 +38,6 @@
 	- `Angle Left Right` - Set the current angle of opening to the side. (0 - 120, degrees).
 	- `Angle Up Down` - Set the current angle of opening down. (0 - 10, degrees).
 - `Filling`
-	-  `Override Materials` - On/off the list of materials that will be applied to the geometry of the structure instead of the base materials.
 	- `Width` - The width of the structure.
 	- `Height` - The height of the structure.
 	- `Rows Count` - The number of rows in the structure. From 1 to 3. (vertical filling).
@@ -44,7 +54,7 @@
 		
 > Some fields are hidden/shown depending on the type of infill and other related parameters.
 
-### Inside Sill and Outside Sill
+### `Inside Sill and Outside Sill`
 
 Any type of sill can be installed on either side of the window.
 

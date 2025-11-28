@@ -2,14 +2,14 @@
 
 ## Examples
 
-![](./img/gallery/Doors1.jpg ':size=25%')
-![](./img/gallery/Doors2.jpg ':size=25%')
+![](./img/gallery/G0.jpg ':size=25%')
+![](./img/gallery/G3.jpg ':size=25%')
 
-![](./img/gallery/Windows1.jpg ':size=25%')
-![](./img/gallery/Windows2.jpg ':size=25%')
+![](./img/gallery/G2.jpg ':size=25%')
+![](./img/gallery/G1.jpg ':size=25%')
 
-![](./img/gallery/Tide1.jpg ':size=25%')
-![](./img/gallery/Tide2.jpg ':size=25%')
+![](./img/gallery/G4.jpg ':size=25%')
+![](./img/gallery/G5.jpg ':size=25%')
 
 ## Villa Orizonte
 
