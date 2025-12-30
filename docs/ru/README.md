@@ -17,6 +17,10 @@
 
 ![](../img/UE_PluginCheck.png ':size=50%')
 
+В окне `PlaceActors` доступна категория `PWC` с базовыми классами:
+
+![](../img/PlaceActors.png ':size=40%')
+
 Уровень с примерами (`Engine/Plugins/...` : `L_PWC_Examples`):
 
 ![](../img/L_PWC_Examples_0.jpg ':size=50%')

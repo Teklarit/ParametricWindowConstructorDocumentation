@@ -6,11 +6,9 @@
 - `PWCSimpleDoorConstructor` - класс для быстрого генерации дверей с заполнениями. В отличии от `PWCSimpleWindowConstructor` - заполнение начинается общей в створке.
 - `PWCThreeCorneredWindowConstructor` - окно-треугольник. Без заполнения, регулируются ширина, высота и положение вершины.
 
-Поиск и размещение обьектов на уровне:
+В окне `PlaceActors` доступна категория `PWC` с базовыми классами:
 
-![](../img/SimpleConstructor1.png ':size=50%')
-
-![](../img/SimpleConstructor2.jpg ':size=50%')
+![](../img/PlaceActors.png ':size=40%')
 
 ## `Details Panel` (Панель свойств):
 

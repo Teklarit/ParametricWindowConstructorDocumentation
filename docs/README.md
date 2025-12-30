@@ -17,6 +17,10 @@ Features:
 
 ![](./img/UE_PluginCheck.png ':size=50%')
 
+In the `PlaceActors` window, the `PWC` category with base classes is available:
+
+![](./img/PlaceActors.png ':size=40%')
+
 Map with examples (`Engine/Plugins/...` : `L_PWC_Examples`):
 
 ![](./img/L_PWC_Examples_0.jpg ':size=50%')

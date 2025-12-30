@@ -6,11 +6,9 @@
 - `PWCSimpleDoorConstructor` - a class for quickly generating doors with infills. Unlike `PWCSimpleWindowConstructor`, the infill starts at the sash.
 - `PWCThreeCorneredWindowConstructor` - a triangle window. No infill, adjustable width, height, and vertex position.
 
-Searching and placing objects at the level:
+In the `PlaceActors` window, the `PWC` category with base classes is available:
 
-![](./img/SimpleConstructor1.png ':size=50%')
-
-![](./img/SimpleConstructor2.jpg ':size=50%')
+![](./img/PlaceActors.png ':size=40%')
 
 ## `DetailsPanel`:
 
