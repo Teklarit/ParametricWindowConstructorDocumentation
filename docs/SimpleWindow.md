@@ -5,6 +5,9 @@
 - `PWCSimpleWindowConstructor` - a class for quickly generating windows with infills. Infill: 1 to 3 rows (vertical). A row can be filled with any number of elements (glass or sash) (horizontal).
 - `PWCSimpleDoorConstructor` - a class for quickly generating doors with infills. Unlike `PWCSimpleWindowConstructor`, the infill starts at the sash.
 - `PWCThreeCorneredWindowConstructor` - a triangle window. No infill, adjustable width, height, and vertex position.
+- `PWCTrapezoidalWindowConstructor` - a trapezoid window. No infill. Adjustable width, left height, and right height.
+- `PWC5SidedTrapezoidalWindowConstructor` - a rectangular window with a sliced corner. No infill. Adjustable width, height, sliced corner (left/right), and offsets from the corner for the height and width of the sliced corner.
+- `PWCRoundWindowConstructor` - a round window. No infill. Adjustable radius and number of segments.
 
 In the `PlaceActors` window, the `PWC` category with base classes is available:
 
