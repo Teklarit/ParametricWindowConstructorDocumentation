@@ -2,7 +2,7 @@
 
 ## Примеры
 
-![](../img/gallery/G0.jpg ':size=25%')
+![](../img/gallery/G0.png ':size=25%')
 ![](../img/gallery/G3.jpg ':size=25%')
 
 ![](../img/gallery/G2.jpg ':size=25%')
